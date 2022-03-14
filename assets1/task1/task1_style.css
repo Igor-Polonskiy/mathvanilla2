@@ -1,0 +1,72 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.task_wrapper {
+    margin: 20px;
+    border: 1px solid grey;
+    padding: 10px
+}
+
+.task1_circleWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.task1_fig:hover {
+    cursor: pointer;
+}
+
+.task1_pencils {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.task1_pencil {
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.task1_pencil:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
+
+.task1_pencilSelect {
+    transform: scale(1.2);
+}
+
+.task1_pencilImg {
+    height: 100%;
+}
+
+.task1_checkTask {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task1_chek_answer {
+    font-size: 26px;
+}
+
+.task1Btn {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+    border: none;
+    border-radius: 12px;
+    background-color: #0AB7D3;
+    padding: 10px;
+    font-size: 26px;
+    color: white;
+    min-width: 100px;
+}
+
+.task1Btn:hover {
+    box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b;
+}
