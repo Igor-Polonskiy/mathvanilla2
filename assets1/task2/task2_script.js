@@ -5,28 +5,30 @@
     const checkTask = document.querySelector('.task2_checkTask')
     const chek_answerTxt = document.querySelector('.task2_chek_answer')
 
-    const winVarTask2 = 'Маша'
+    const winVarTask2 = '1'
 
     let answersItems = null
     let finishAnswer = null
 
     const answersData = [{
             id: 1,
-            data: "Антон"
+            src: './assets1/task2/img/task2_1.png',
+
         },
         {
             id: 2,
-            data: "Маша"
+            src: './assets1/task2/img/task2_2.png',
         },
         {
             id: 3,
-            data: "Таня"
+            src: './assets1/task2/img/task2_3.png',
         },
         {
             id: 4,
-            data: "Володя"
+            src: './assets1/task2/img/task2_4.png',
         }
     ]
+
 
     answers.addEventListener('click', (e) => {
         if (e.target.classList.contains('task2_answer')) {
@@ -42,8 +44,6 @@
             finishAnswer = e.target
             chek_answerTxt.innerHTML = ''
             checkTask.style.background = ''
-            console.log(finishAnswer)
-
         }
     })
 
@@ -57,7 +57,7 @@
 
     checkingTaskBtn.addEventListener('click', () => {
         finishAnswer.classList.remove('task2_answer_active')
-        if (finishAnswer.innerText === winVarTask2) {
+        if (finishAnswer.getAttribute('data-id') === winVarTask2) {
             finishAnswer.classList.add('task2_green')
             chek_answerTxt.innerHTML = '<span>&#128077;</span> Молодец!'
             checkTask.style.background = 'lightgreen'
@@ -78,7 +78,8 @@
         shuffleArr(arr)
         arr.forEach(item => {
             let e = document.createElement('div')
-            e.innerText = `${item.data}`
+            e.style.backgroundImage = `url(${item.src})`
+            e.setAttribute('data-id', item.id)
             e.classList.add('task2_answer')
             answers.append(e)
         })

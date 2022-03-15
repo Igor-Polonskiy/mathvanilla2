@@ -15,8 +15,9 @@
 
 .task2_answers {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin: 20px auto;
 }
 
 .task2_answer {
@@ -26,15 +27,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 15px;
-    margin: 15px;
+    width: 24%;
+    height: 97px;
     border: 1px solid grey;
-    width: 200px;
-    height: 80px;
     border-radius: 12px;
     cursor: pointer;
     transition: all 0.2s ease;
     box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4;
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
 }
 
 .task2_answer:hover {
