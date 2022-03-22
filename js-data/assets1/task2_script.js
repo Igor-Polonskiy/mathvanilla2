@@ -12,20 +12,20 @@
 
     const answersData = [{
             id: 1,
-            src: './assets1/task2/img/task2_1.png',
+            src: 'Images_2/assets1/task2_1.png',
 
         },
         {
             id: 2,
-            src: './assets1/task2/img/task2_2.png',
+            src: 'Images_2/assets1/task2_2.png',
         },
         {
             id: 3,
-            src: './assets1/task2/img/task2_3.png',
+            src: 'Images_2/assets1/task2_3.png',
         },
         {
             id: 4,
-            src: './assets1/task2/img/task2_4.png',
+            src: 'Images_2/assets1/task2_4.png',
         }
     ]
 
