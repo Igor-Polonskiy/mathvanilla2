@@ -1,0 +1,51 @@
+.task6_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task6_imgwrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+.task6_img {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 120px;
+    width: 24%;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    border-radius: 10px;
+    cursor: pointer;
+    background-size: 105%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.task6_active {
+    border: 5px solid blue;
+}
+
+.task6_checkTask {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.task6_chek_answer {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+
+.task6_chek_answer span {
+    font-size: 25px;
+}
