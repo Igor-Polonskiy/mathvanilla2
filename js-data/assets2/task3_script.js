@@ -83,5 +83,4 @@
         answersItems = answers.querySelectorAll('.task3_answer')
     }
 
-
 })();
