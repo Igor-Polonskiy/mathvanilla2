@@ -1,0 +1,79 @@
+.task9_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task9_imgWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.task9_linewrapper {
+    display: flex;
+}
+
+.task9_drop1 {
+    border: 1px solid grey;
+    border-radius: 12px;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    margin: 5px;
+    padding: 10px;
+}
+
+.task9_imgWrapper img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.task9_drop {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.task9_dropeitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    height: 90px;
+}
+
+.task9_answers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    border-radius: 10px;
+}
+
+.task9_answer {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 61px;
+    height: 61px;
+    cursor: grab;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.task9_checkTask {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.task9_chek_answer {
+    font-size: 26px;
+}
