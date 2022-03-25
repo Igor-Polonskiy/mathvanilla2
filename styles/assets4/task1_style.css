@@ -1,0 +1,103 @@
+body {
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.task_wrapper {
+    margin: 20px;
+    border: 1px solid grey;
+    padding: 10px
+}
+
+.task1_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task1_imgWrapper {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    border-radius: 10px;
+}
+
+.task1_imgWrapper img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
+.task1_drop {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.task1_dropeitem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 120px;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    border-radius: 10px;
+}
+
+.task1_answers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    border-radius: 10px;
+}
+
+.task1_answer,
+.task1_answer_drop {
+    box-sizing: border-box;
+    padding: 15px;
+    width: 110px;
+    height: 110px;
+    border-radius: 12px;
+    cursor: grab;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+}
+
+.task1_checkTask {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.task1_chek_answer {
+    font-size: 26px;
+}
+
+.task1Btn {
+    cursor: pointer !important;
+    transition: all 0.2s ease;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4 !important;
+    border: none !important;
+    border-radius: 12px !important;
+    background-color: #0AB7D3 !important;
+    padding: 10px !important;
+    font-size: 26px !important;
+    color: white !important;
+    min-width: 100px !important;
+    margin: 0 !important;
+}
+
+.task1Btn:hover {
+    box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b !important;
+}

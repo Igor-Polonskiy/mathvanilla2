@@ -1,0 +1,50 @@
+.task3_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task3_imgwrapper1,
+.task3_imgwrapper2,
+.task3_imgwrapper3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.task3_img {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 19%;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    border-radius: 10px;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+.task3_active {
+    border: 5px solid blue;
+}
+
+.task3_checkTask {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.task3_chek_answer {
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+}
+
+.task3_chek_answer span {
+    font-size: 25px;
+}

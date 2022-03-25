@@ -1,0 +1,43 @@
+.task2_circleWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.task2_fig:hover {
+    cursor: pointer;
+}
+
+.task2_pencils {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.task2_pencil {
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.task2_pencil:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
+
+.task2_pencilSelect {
+    transform: scale(1.2);
+}
+
+.task2_pencilImg {
+    height: 100%;
+}
+
+.task2_checkTask {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task2_chek_answer {
+    font-size: 26px;
+}
